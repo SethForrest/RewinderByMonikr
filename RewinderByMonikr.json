@@ -1,0 +1,43 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "RewinderByMonikr",
+  "anchor": {
+    "Screen": "Center"
+  },
+  "pos": [
+    0.0,
+    0.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": {
+      "type": "Inherit"
+    },
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "filter": {
+    "player": {
+      "combat": null,
+      "specs": [],
+      "weapons": [],
+      "traits": [],
+      "mounts": []
+    },
+    "map": {
+      "category": [
+        "PvE",
+        "Instance",
+        "Other"
+      ],
+      "whitelist": true,
+      "ids": []
+    }
+  },
+  "animation": null,
+  "layer": 0,
+  "elements": []
+}
