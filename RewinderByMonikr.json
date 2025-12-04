@@ -51,14 +51,10 @@
       "opacity": 1.0,
       "trigger": {
         "source": {
-          "type": "Buff",
-          "combatant": "Player",
-          "ids": [
-            49665
-          ]
+          "type": "Inherit"
         },
         "threshold": {
-          "threshold_type": "Present",
+          "threshold_type": "Always",
           "amount_type": "Intensity"
         }
       },
@@ -153,8 +149,10 @@
           "opacity": 0.7,
           "trigger": {
             "source": {
-              "type": "SkillbarSlot",
-              "slot": "Weapon2"
+              "type": "Ability",
+              "ids": [
+                49555
+              ]
             },
             "threshold": {
               "threshold_type": "Missing",
